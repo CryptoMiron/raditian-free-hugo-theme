@@ -1,4 +1,18 @@
 ---
 label: '1'
 hide_body: false
-fields: []
+fields:
+- name: tajtl
+  type: text
+  config:
+    required: false
+  label: Тайтл
+- name: tekst
+  type: textarea
+  default: Основной текст страницы!!!
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Текст
